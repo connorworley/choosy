@@ -1,8 +1,9 @@
 [package]
 name = "choosy"
 description = "Choosy program that launches other programs depending on its arguments"
+repository = "https://github.com/connorworley/choosy"
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
