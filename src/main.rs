@@ -26,7 +26,7 @@ struct Program {
 
 fn main() -> Result<Infallible, Box<dyn Error>> {
     let args: Vec<String> = args().collect();
-    assert!(args.len() >= 2, "At least one argument must be provided");
+    assert!(args.len() == 2, "Exactly one argument must be provided");
 
     let config_path = dirs::config_dir()
         .ok_or("Could not locate config directory")?
